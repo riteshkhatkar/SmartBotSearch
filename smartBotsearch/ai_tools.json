@@ -1,0 +1,871 @@
+[
+    {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com",
+        "description": "Advanced conversational AI by OpenAI",
+        "function": "Conversational AI for Q&A, writing, coding",
+        "pricing": "Free + Pro",
+        "categories": ["Chatbot", "Writing", "Coding"]
+    },
+    {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com",
+        "function": "Conversational AI for Q&A, writing, coding",
+        "pricing": "Free + Pro",
+        "categories": ["Chatbot", "Writing", "Coding"]
+    },
+    {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com",
+        "function": "AI image generation from text prompts",
+        "pricing": "Paid",
+        "categories": ["Image Generation", "Art"]
+    },
+    {
+        "name": "Grammarly",
+        "url": "https://www.grammarly.com",
+        "function": "AI writing assistant and grammar checker",
+        "pricing": "Free + Premium",
+        "categories": ["Writing", "Productivity"]
+    },
+    {
+        "name": "Jasper AI",
+        "url": "https://www.jasper.ai",
+        "function": "AI copywriting and content generation",
+        "pricing": "Paid",
+        "categories": ["Writing", "Marketing"]
+    },
+    {
+        "name": "Notion AI",
+        "url": "https://www.notion.so/product/ai",
+        "function": "AI writing, note-taking, summarization",
+        "pricing": "Paid Add-on",
+        "categories": ["Productivity", "Writing"]
+    },
+    {
+        "name": "Copy.ai",
+        "url": "https://www.copy.ai",
+        "function": "AI-powered marketing copy generator",
+        "pricing": "Free + Pro",
+        "categories": ["Marketing", "Writing"]
+    },
+    {
+        "name": "D-ID",
+        "url": "https://www.d-id.com",
+        "function": "AI video avatars from text",
+        "pricing": "Paid",
+        "categories": ["Video", "Avatar"]
+    },
+    {
+        "name": "Replika",
+        "url": "https://replika.ai",
+        "function": "AI chatbot for emotional support",
+        "pricing": "Free + Paid",
+        "categories": ["Chatbot", "Mental Health"]
+    },
+    {
+        "name": "Perplexity AI",
+        "url": "https://www.perplexity.ai",
+        "function": "AI-powered factual search engine",
+        "pricing": "Free",
+        "categories": ["Search", "Research"]
+    },
+    {
+        "name": "Leonardo.Ai",
+        "url": "https://leonardo.ai",
+        "function": "AI art generation for game assets & designs",
+        "pricing": "Free + Paid",
+        "categories": ["Art", "Image Generation"]
+    },
+    {
+        "name": "Synthesia",
+        "url": "https://www.synthesia.io",
+        "function": "AI video generation with virtual presenters",
+        "pricing": "Paid",
+        "categories": ["Video", "Avatar"]
+    },
+    {
+        "name": "Runway ML",
+        "url": "https://runwayml.com",
+        "function": "AI video and image editing tools",
+        "pricing": "Free + Paid",
+        "categories": ["Video", "Image Editing"]
+    },
+    {
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io",
+        "function": "AI voice generation and text-to-speech",
+        "pricing": "Free + Paid",
+        "categories": ["Audio", "Voice"]
+    },
+    {
+        "name": "Descript",
+        "url": "https://www.descript.com",
+        "function": "AI-powered video and podcast editing",
+        "pricing": "Free + Paid",
+        "categories": ["Video", "Audio"]
+    },
+    {
+        "name": "Otter.ai",
+        "url": "https://otter.ai",
+        "function": "AI meeting assistant with transcription",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Transcription"]
+    },
+    {
+        "name": "Fireflies.ai",
+        "url": "https://fireflies.ai",
+        "function": "AI notetaker for meetings",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Transcription"]
+    },
+    {
+        "name": "Hugging Face",
+        "url": "https://huggingface.co",
+        "function": "Platform for AI models and datasets",
+        "pricing": "Free + Paid",
+        "categories": ["Development", "Models"]
+    },
+    {
+        "name": "Stable Diffusion",
+        "url": "https://stablediffusionweb.com",
+        "function": "Open-source text-to-image model",
+        "pricing": "Free",
+        "categories": ["Image Generation", "Art"]
+    },
+    {
+        "name": "DALL-E",
+        "url": "https://openai.com/dall-e",
+        "function": "AI system for realistic image generation",
+        "pricing": "Paid",
+        "categories": ["Image Generation", "Art"]
+    },
+    {
+        "name": "Claude",
+        "url": "https://www.anthropic.com",
+        "function": "AI assistant focused on helpfulness and safety",
+        "pricing": "Free",
+        "categories": ["Chatbot", "Writing"]
+    },
+    {
+        "name": "Bard",
+        "url": "https://bard.google.com",
+        "function": "Google's conversational AI chatbot",
+        "pricing": "Free",
+        "categories": ["Chatbot", "Search"]
+    },
+    {
+        "name": "Character.AI",
+        "url": "https://beta.character.ai",
+        "function": "Chat with AI characters and celebrities",
+        "pricing": "Free",
+        "categories": ["Chatbot", "Entertainment"]
+    },
+    {
+        "name": "Poe",
+        "url": "https://poe.com",
+        "function": "Platform to chat with multiple AI models",
+        "pricing": "Free + Paid",
+        "categories": ["Chatbot", "Platform"]
+    },
+    {
+        "name": "DeepL",
+        "url": "https://www.deepl.com",
+        "function": "AI-powered translation tool",
+        "pricing": "Free + Paid",
+        "categories": ["Writing", "Translation"]
+    },
+    {
+        "name": "Quillbot",
+        "url": "https://quillbot.com",
+        "function": "AI paraphrasing and summarizing tool",
+        "pricing": "Free + Premium",
+        "categories": ["Writing", "Productivity"]
+    },
+    {
+        "name": "Writesonic",
+        "url": "https://writesonic.com",
+        "function": "AI writing assistant for content creation",
+        "pricing": "Free + Paid",
+        "categories": ["Writing", "Marketing"]
+    },
+    {
+        "name": "Rytr",
+        "url": "https://rytr.me",
+        "function": "AI writing assistant for various content types",
+        "pricing": "Free + Paid",
+        "categories": ["Writing", "Productivity"]
+    },
+    {
+        "name": "Sudowrite",
+        "url": "https://www.sudowrite.com",
+        "function": "AI writing assistant for fiction writers",
+        "pricing": "Paid",
+        "categories": ["Writing", "Creative"]
+    },
+    {
+        "name": "NovelAI",
+        "url": "https://novelai.net",
+        "function": "AI-assisted storytelling and writing",
+        "pricing": "Paid",
+        "categories": ["Writing", "Creative"]
+    },
+    {
+        "name": "ProWritingAid",
+        "url": "https://prowritingaid.com",
+        "function": "AI-powered writing coach and editor",
+        "pricing": "Free + Premium",
+        "categories": ["Writing", "Editing"]
+    },
+    {
+        "name": "Wordtune",
+        "url": "https://www.wordtune.com",
+        "function": "AI-powered writing assistant for rewriting",
+        "pricing": "Free + Paid",
+        "categories": ["Writing", "Productivity"]
+    },
+    {
+        "name": "Deep Dream Generator",
+        "url": "https://deepdreamgenerator.com",
+        "function": "AI art generator creating dream-like images",
+        "pricing": "Free + Paid",
+        "categories": ["Art", "Image Generation"]
+    },
+    {
+        "name": "Artbreeder",
+        "url": "https://www.artbreeder.com",
+        "function": "AI tool for creating and blending images",
+        "pricing": "Free + Paid",
+        "categories": ["Art", "Image Generation"]
+    },
+    {
+        "name": "NightCafe",
+        "url": "https://creator.nightcafe.studio",
+        "function": "AI art generator with multiple algorithms",
+        "pricing": "Free + Paid",
+        "categories": ["Art", "Image Generation"]
+    },
+    {
+        "name": "Dream by Wombo",
+        "url": "https://dream.ai",
+        "function": "AI art generator with various styles",
+        "pricing": "Free + Paid",
+        "categories": ["Art", "Image Generation"]
+    },
+    {
+        "name": "StarryAI",
+        "url": "https://starryai.com",
+        "function": "AI art generator with customization options",
+        "pricing": "Free + Paid",
+        "categories": ["Art", "Image Generation"]
+    },
+    {
+        "name": "Big Sleep",
+        "url": "https://github.com/lucidrains/big-sleep",
+        "function": "Open-source text-to-image AI",
+        "pricing": "Free",
+        "categories": ["Art", "Image Generation"]
+    },
+    {
+        "name": "Craiyon (formerly DALL-E mini)",
+        "url": "https://www.craiyon.com",
+        "function": "Free text-to-image AI generator",
+        "pricing": "Free",
+        "categories": ["Art", "Image Generation"]
+    },
+    {
+        "name": "Lexica",
+        "url": "https://lexica.art",
+        "function": "Search engine for Stable Diffusion images",
+        "pricing": "Free",
+        "categories": ["Art", "Search"]
+    },
+    {
+        "name": "Playground AI",
+        "url": "https://playgroundai.com",
+        "function": "Free online AI image creator",
+        "pricing": "Free",
+        "categories": ["Art", "Image Generation"]
+    },
+    {
+        "name": "Adobe Firefly",
+        "url": "https://www.adobe.com/sensei/generative-ai/firefly.html",
+        "function": "Adobe's generative AI for creatives",
+        "pricing": "Paid",
+        "categories": ["Art", "Image Generation"]
+    },
+    {
+        "name": "Murf",
+        "url": "https://murf.ai",
+        "function": "AI voice generator with realistic voices",
+        "pricing": "Free + Paid",
+        "categories": ["Audio", "Voice"]
+    },
+    {
+        "name": "Resemble AI",
+        "url": "https://www.resemble.ai",
+        "function": "AI voice generator and cloning tool",
+        "pricing": "Paid",
+        "categories": ["Audio", "Voice"]
+    },
+    {
+        "name": "Lovo",
+        "url": "https://lovo.ai",
+        "function": "AI voice generator and text-to-speech",
+        "pricing": "Free + Paid",
+        "categories": ["Audio", "Voice"]
+    },
+    {
+        "name": "Voicemod",
+        "url": "https://www.voicemod.net",
+        "function": "AI voice changer and soundboard",
+        "pricing": "Free + Paid",
+        "categories": ["Audio", "Voice"]
+    },
+    {
+        "name": "Boomy",
+        "url": "https://boomy.com",
+        "function": "AI music generator creating original songs",
+        "pricing": "Free + Paid",
+        "categories": ["Audio", "Music"]
+    },
+    {
+        "name": "Soundraw",
+        "url": "https://soundraw.io",
+        "function": "AI music generator for creators",
+        "pricing": "Free + Paid",
+        "categories": ["Audio", "Music"]
+    },
+    {
+        "name": "AIVA",
+        "url": "https://www.aiva.ai",
+        "function": "AI composing emotional soundtrack music",
+        "pricing": "Free + Paid",
+        "categories": ["Audio", "Music"]
+    },
+    {
+        "name": "Amper Music",
+        "url": "https://www.ampermusic.com",
+        "function": "AI music composition tool",
+        "pricing": "Paid",
+        "categories": ["Audio", "Music"]
+    },
+    {
+        "name": "Jukebox",
+        "url": "https://openai.com/research/jukebox",
+        "function": "OpenAI's neural net for music generation",
+        "pricing": "Free",
+        "categories": ["Audio", "Music"]
+    },
+    {
+        "name": "Mubert",
+        "url": "https://mubert.com",
+        "function": "AI music generator for content creators",
+        "pricing": "Free + Paid",
+        "categories": ["Audio", "Music"]
+    },
+    {
+        "name": "Pictory",
+        "url": "https://pictory.ai",
+        "function": "AI video generator from text content",
+        "pricing": "Paid",
+        "categories": ["Video", "Marketing"]
+    },
+    {
+        "name": "InVideo",
+        "url": "https://invideo.io",
+        "function": "AI-powered online video editor",
+        "pricing": "Free + Paid",
+        "categories": ["Video", "Editing"]
+    },
+    {
+        "name": "HeyGen",
+        "url": "https://www.heygen.com",
+        "function": "AI video creator with avatars",
+        "pricing": "Paid",
+        "categories": ["Video", "Avatar"]
+    },
+    {
+        "name": "Synthesys",
+        "url": "https://synthesys.io",
+        "function": "AI video and voice generation",
+        "pricing": "Paid",
+        "categories": ["Video", "Voice"]
+    },
+    {
+        "name": "Fliki",
+        "url": "https://fliki.ai",
+        "function": "AI video creator with voiceovers",
+        "pricing": "Free + Paid",
+        "categories": ["Video", "Voice"]
+    },
+    {
+        "name": "Colossyan",
+        "url": "https://www.colossyan.com",
+        "function": "AI video generator with realistic actors",
+        "pricing": "Paid",
+        "categories": ["Video", "Avatar"]
+    },
+    {
+        "name": "Veed.io",
+        "url": "https://www.veed.io",
+        "function": "Online video editor with AI features",
+        "pricing": "Free + Paid",
+        "categories": ["Video", "Editing"]
+    },
+    {
+        "name": "RawShorts",
+        "url": "https://www.rawshorts.com",
+        "function": "AI video maker for explainer videos",
+        "pricing": "Free + Paid",
+        "categories": ["Video", "Marketing"]
+    },
+    {
+        "name": "Lumen5",
+        "url": "https://lumen5.com",
+        "function": "AI video creator for social media",
+        "pricing": "Free + Paid",
+        "categories": ["Video", "Marketing"]
+    },
+    {
+        "name": "Wisecut",
+        "url": "https://wisecut.video",
+        "function": "AI-powered automatic video editor",
+        "pricing": "Free + Paid",
+        "categories": ["Video", "Editing"]
+    },
+    {
+        "name": "Tome",
+        "url": "https://tome.app",
+        "function": "AI-powered storytelling and presentation",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Presentation"]
+    },
+    {
+        "name": "Beautiful.ai",
+        "url": "https://www.beautiful.ai",
+        "function": "AI-powered presentation maker",
+        "pricing": "Paid",
+        "categories": ["Productivity", "Presentation"]
+    },
+    {
+        "name": "Decktopus",
+        "url": "https://www.decktopus.com",
+        "function": "AI presentation generator from content",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Presentation"]
+    },
+    {
+        "name": "SlidesAI",
+        "url": "https://www.slidesai.io",
+        "function": "AI tool to create presentations from text",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Presentation"]
+    },
+    {
+        "name": "Genei",
+        "url": "https://www.genei.io",
+        "function": "AI research and summarization tool",
+        "pricing": "Free + Paid",
+        "categories": ["Research", "Productivity"]
+    },
+    {
+        "name": "Elicit",
+        "url": "https://elicit.org",
+        "function": "AI research assistant for literature review",
+        "pricing": "Free + Paid",
+        "categories": ["Research", "Academic"]
+    },
+    {
+        "name": "Consensus",
+        "url": "https://consensus.app",
+        "function": "AI search engine for research findings",
+        "pricing": "Free + Paid",
+        "categories": ["Research", "Search"]
+    },
+    {
+        "name": "Scite",
+        "url": "https://scite.ai",
+        "function": "AI assistant for smart citations",
+        "pricing": "Paid",
+        "categories": ["Research", "Academic"]
+    },
+    {
+        "name": "Scholarcy",
+        "url": "https://www.scholarcy.com",
+        "function": "AI summarization tool for research papers",
+        "pricing": "Free + Paid",
+        "categories": ["Research", "Academic"]
+    },
+    {
+        "name": "Humata",
+        "url": "https://www.humata.ai",
+        "function": "AI for analyzing and summarizing documents",
+        "pricing": "Free + Paid",
+        "categories": ["Research", "Productivity"]
+    },
+    {
+        "name": "Typeset",
+        "url": "https://typeset.io",
+        "function": "AI platform for academic writing",
+        "pricing": "Free + Paid",
+        "categories": ["Research", "Writing"]
+    },
+    {
+        "name": "Trinka",
+        "url": "https://www.trinka.ai",
+        "function": "AI grammar checker for academic writing",
+        "pricing": "Free + Paid",
+        "categories": ["Research", "Writing"]
+    },
+    {
+        "name": "Paperpal",
+        "url": "https://paperpal.com",
+        "function": "AI academic writing assistant",
+        "pricing": "Free + Paid",
+        "categories": ["Research", "Writing"]
+    },
+    {
+        "name": "Writefull",
+        "url": "https://writefull.com",
+        "function": "AI language feedback for academic writing",
+        "pricing": "Free + Paid",
+        "categories": ["Research", "Writing"]
+    },
+    {
+        "name": "Jenni",
+        "url": "https://jenni.ai",
+        "function": "AI assistant for academic writing",
+        "pricing": "Free + Paid",
+        "categories": ["Research", "Writing"]
+    },
+    {
+        "name": "ChatPDF",
+        "url": "https://www.chatpdf.com",
+        "function": "Chat with any PDF document",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Research"]
+    },
+    {
+        "name": "AskYourPDF",
+        "url": "https://askyourpdf.com",
+        "function": "Chat with PDF documents using AI",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Research"]
+    },
+    {
+        "name": "PDF.ai",
+        "url": "https://pdf.ai",
+        "function": "AI-powered PDF reader and analyzer",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Research"]
+    },
+    {
+        "name": "Krisp",
+        "url": "https://krisp.ai",
+        "function": "AI-powered noise cancellation for calls",
+        "pricing": "Free + Paid",
+        "categories": ["Audio", "Productivity"]
+    },
+    {
+        "name": "Rewind",
+        "url": "https://www.rewind.ai",
+        "function": "AI that records and summarizes your work",
+        "pricing": "Paid",
+        "categories": ["Productivity", "Memory"]
+    },
+    {
+        "name": "Mem",
+        "url": "https://mem.ai",
+        "function": "AI-powered note-taking and organization",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Note-taking"]
+    },
+    {
+        "name": "Taskade",
+        "url": "https://www.taskade.com",
+        "function": "AI workflow generator and task manager",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Task Management"]
+    },
+    {
+        "name": "Motion",
+        "url": "https://www.usemotion.com",
+        "function": "AI-powered calendar and scheduling",
+        "pricing": "Paid",
+        "categories": ["Productivity", "Scheduling"]
+    },
+    {
+        "name": "Reclaim",
+        "url": "https://reclaim.ai",
+        "function": "AI scheduling assistant for teams",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Scheduling"]
+    },
+    {
+        "name": "Clockwise",
+        "url": "https://www.getclockwise.com",
+        "function": "AI calendar assistant to optimize time",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Scheduling"]
+    },
+    {
+        "name": "Trevor",
+        "url": "https://www.trevor.ai",
+        "function": "AI time blocking assistant",
+        "pricing": "Free + Paid",
+        "categories": ["Productivity", "Scheduling"]
+    },
+    {
+        "name": "SaneBox",
+        "url": "https://www.sanebox.com",
+        "function": "AI email management and organization",
+        "pricing": "Paid",
+        "categories": ["Productivity", "Email"]
+    },
+    {
+        "name": "Superhuman",
+        "url": "https://superhuman.com",
+        "function": "AI-powered email client for productivity",
+        "pricing": "Paid",
+        "categories": ["Productivity", "Email"]
+    },
+    {
+        "name": "Ellie",
+        "url": "https://ellie.ai",
+        "function": "AI email assistant that learns your style",
+        "pricing": "Paid",
+        "categories": ["Productivity", "Email"]
+    },
+    {
+        "name": "Flowrite",
+        "url": "https://www.flowrite.com",
+        "function": "AI tool that turns notes into emails",
+        "pricing": "Paid",
+        "categories": ["Productivity", "Email"]
+    },
+    {
+        "name": "Quickchat",
+        "url": "https://www.quickchat.ai",
+        "function": "AI chatbots for customer support",
+        "pricing": "Free + Paid",
+        "categories": ["Chatbot", "Business"]
+    },
+    {
+        "name": "Landbot",
+        "url": "https://landbot.io",
+        "function": "No-code AI chatbot builder",
+        "pricing": "Free + Paid",
+        "categories": ["Chatbot", "Business"]
+    },
+    {
+        "name": "ManyChat",
+        "url": "https://manychat.com",
+        "function": "Chatbot platform for Messenger marketing",
+        "pricing": "Free + Paid",
+        "categories": ["Chatbot", "Marketing"]
+    },
+    {
+        "name": "Chatfuel",
+        "url": "https://chatfuel.com",
+        "function": "AI chatbot builder for Facebook",
+        "pricing": "Free + Paid",
+        "categories": ["Chatbot", "Business"]
+    },
+    {
+        "name": "Botpress",
+        "url": "https://botpress.com",
+        "function": "Open-source conversational AI platform",
+        "pricing": "Free + Paid",
+        "categories": ["Chatbot", "Development"]
+    },
+    {
+        "name": "Voiceflow",
+        "url": "https://www.voiceflow.com",
+        "function": "Collaborative platform for building AI chatbots",
+        "pricing": "Free + Paid",
+        "categories": ["Chatbot", "Development"]
+    },
+    {
+        "name": "Rasa",
+        "url": "https://rasa.com",
+        "function": "Open-source conversational AI framework",
+        "pricing": "Free + Paid",
+        "categories": ["Chatbot", "Development"]
+    },
+    {
+        "name": "Tidio",
+        "url": "https://www.tidio.com",
+        "function": "Live chat with AI-powered chatbots",
+        "pricing": "Free + Paid",
+        "categories": ["Chatbot", "Business"]
+    },
+    {
+        "name": "Intercom",
+        "url": "https://www.intercom.com",
+        "function": "Business messenger with AI features",
+        "pricing": "Paid",
+        "categories": ["Chatbot", "Business"]
+    },
+    {
+        "name": "Drift",
+        "url": "https://www.drift.com",
+        "function": "Conversational marketing platform",
+        "pricing": "Paid",
+        "categories": ["Chatbot", "Marketing"]
+    },
+    {
+        "name": "Ada",
+        "url": "https://ada.support",
+        "function": "AI-powered customer service automation",
+        "pricing": "Paid",
+        "categories": ["Chatbot", "Business"]
+    },
+    {
+        "name": "Forethought",
+        "url": "https://www.forethought.ai",
+        "function": "AI for customer support automation",
+        "pricing": "Paid",
+        "categories": ["Chatbot", "Business"]
+    },
+    {
+        "name": "Zapier",
+        "url": "https://zapier.com",
+        "function": "Automation platform with AI features",
+        "pricing": "Free + Paid",
+        "categories": ["Automation", "Productivity"]
+    },
+    {
+        "name": "Make (formerly Integromat)",
+        "url": "https://www.make.com",
+        "function": "Visual platform for automation and AI",
+        "pricing": "Free + Paid",
+        "categories": ["Automation", "Productivity"]
+    },
+    {
+        "name": "Bardeen",
+        "url": "https://www.bardeen.ai",
+        "function": "AI-powered workflow automation",
+        "pricing": "Free + Paid",
+        "categories": ["Automation", "Productivity"]
+    },
+    {
+        "name": "Browse AI",
+        "url": "https://www.browse.ai",
+        "function": "AI tool to monitor and extract web data",
+        "pricing": "Free + Paid",
+        "categories": ["Automation", "Data"]
+    },
+    {
+        "name": "PhantomBuster",
+        "url": "https://phantombuster.com",
+        "function": "Automation for lead generation and outreach",
+        "pricing": "Free + Paid",
+        "categories": ["Automation", "Marketing"]
+    },
+    {
+        "name": "Octoparse",
+        "url": "https://www.octoparse.com",
+        "function": "AI-powered web scraping tool",
+        "pricing": "Free + Paid",
+        "categories": ["Automation", "Data"]
+    },
+    {
+        "name": "Diffbot",
+        "url": "https://www.diffbot.com",
+        "function": "AI for web data extraction",
+        "pricing": "Free + Paid",
+        "categories": ["Automation", "Data"]
+    },
+    {
+        "name": "Bright Data",
+        "url": "https://brightdata.com",
+        "function": "Web data platform with AI features",
+        "pricing": "Paid",
+        "categories": ["Automation", "Data"]
+    },
+    {
+        "name": "Browse AI",
+        "url": "https://www.browse.ai",
+        "function": "AI tool to monitor and extract web data",
+        "pricing": "Free + Paid",
+        "categories": ["Automation", "Data"]
+    },
+    {
+        "name": "Nanonets",
+        "url": "https://nanonets.com",
+        "function": "AI for workflow automation and OCR",
+        "pricing": "Free + Paid",
+        "categories": ["Automation", "Data"]
+    },
+    {
+        "name": "Tabnine",
+        "url": "https://www.tabnine.com",
+        "function": "AI code completion tool",
+        "pricing": "Free + Paid",
+        "categories": ["Coding", "Development"]
+    },
+    {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "function": "AI pair programmer",
+        "pricing": "Paid",
+        "categories": ["Coding", "Development"]
+    },
+    {
+        "name": "Amazon CodeWhisperer",
+        "url": "https://aws.amazon.com/codewhisperer",
+        "function": "AI coding companion",
+        "pricing": "Free + Paid",
+        "categories": ["Coding", "Development"]
+    },
+    {
+        "name": "Replit Ghostwriter",
+        "url": "https://replit.com/site/ghostwriter",
+        "function": "AI-powered coding in the browser",
+        "pricing": "Free + Paid",
+        "categories": ["Coding", "Development"]
+    },
+    {
+        "name": "Codium",
+        "url": "https://www.codium.ai",
+        "function": "AI for code generation and testing",
+        "pricing": "Free",
+        "categories": ["Coding", "Development"]
+    },
+    {
+        "name": "Mutable",
+        "url": "https://mutable.ai",
+        "function": "AI for rapid production code",
+        "pricing": "Free + Paid",
+        "categories": ["Coding", "Development"]
+    },
+    {
+        "name": "AI2sql",
+        "url": "https://www.ai2sql.io",
+        "function": "AI SQL query builder",
+        "pricing": "Free + Paid",
+        "categories": ["Coding", "Database"]
+    },
+    {
+        "name": "Dora AI",
+        "url": "https://www.dora.ai",
+        "function": "AI no-code website builder",
+        "pricing": "Free + Paid",
+        "categories": ["Coding", "Web Design"]
+    },
+    {
+        "name": "Durable",
+        "url": "https://durable.co",
+        "function": "AI website builder in seconds",
+        "pricing": "Free + Paid",
+        "categories": ["Coding", "Web Design"]
+    },
+    {
+        "name": "Framer AI",
+        "url": "https://www.framer.com",
+        "function": "AI-powered website design tool",
+        "pricing": "Free + Paid",
+        "categories": ["Coding", "Web Design"]
+    }
+]

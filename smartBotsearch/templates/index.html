@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero-section text-center py-5 mb-5 bg-light rounded">
+    <h1 class="display-4">Find the Perfect AI Tool for Your Needs</h1>
+    <p class="lead">Discover and compare 100+ AI tools across all categories</p>
+    
+    <div class="search-box mx-auto mt-4" style="max-width: 600px;">
+        <form action="/search" method="get">
+            <div class="input-group">
+                <input type="text" class="form-control form-control-lg" name="q" placeholder="Search by name, function, or category..." id="main-search">
+                <button class="btn btn-primary btn-lg" type="submit">Search</button>
+            </div>
+            <div class="filters mt-3 row g-2">
+                <div class="col-md-4">
+                    <select class="form-select" name="category">
+                        <option value="">All Categories</option>
+                        <option value="chatbot">Chatbot</option>
+                        <option value="writing">Writing</option>
+                        <option value="image">Image Generation</option>
+                        <option value="video">Video</option>
+                        <option value="audio">Audio</option>
+                        <option value="productivity">Productivity</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <select class="form-select" name="pricing">
+                        <option value="">All Pricing</option>
+                        <option value="free">Free</option>
+                        <option value="freemium">Freemium</option>
+                        <option value="paid">Paid</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-outline-secondary w-100">Filter</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="suggestions mb-5">
+    <h4 class="mb-3">Popular Searches:</h4>
+    <div class="d-flex flex-wrap gap-2">
+        <a href="/search?q=chatbot" class="btn btn-sm btn-outline-primary">Chatbots</a>
+        <a href="/search?q=image" class="btn btn-sm btn-outline-primary">Image AI</a>
+        <a href="/search?q=writing" class="btn btn-sm btn-outline-primary">Writing Tools</a>
+        <a href="/search?q=video" class="btn btn-sm btn-outline-primary">Video AI</a>
+        <a href="/search?q=free" class="btn btn-sm btn-outline-primary">Free Tools</a>
+    </div>
+</div>
+
+<div class="featured-tools">
+    <h2 class="mb-4">Featured AI Tools</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        {% for tool in tools %}
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">{{ tool.name }}</h5>
+                    <p class="card-text">{{ tool.function }}</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge bg-{{ 'success' if tool.pricing.lower() == 'free' else 'warning' if 'free' in tool.pricing.lower() else 'primary' }}">
+                            {{ tool.pricing }}
+                        </span>
+                        <a href="{{ tool.url }}" target="_blank" class="btn btn-sm btn-outline-primary">Visit</a>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent">
+                    {% for category in tool.categories[:3] %}
+                    <span class="badge bg-light text-dark me-1">{{ category }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="mt-5 text-center">
+    <a href="/search" class="btn btn-primary">Browse All AI Tools</a>
+</div>
+
+<div class="categories mt-5" id="categories">
+    <h2 class="mb-4">Explore by Category</h2>
+    <div class="row g-3">
+        <div class="col-md-3 col-6">
+            <a href="/search?q=chatbot" class="category-card">
+                <div class="card text-center h-100">
+                    <div class="card-body">
+                        <i class="fas fa-robot fa-3x mb-3"></i>
+                        <h5>Chatbots</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-6">
+            <a href="/search?q=image" class="category-card">
+                <div class="card text-center h-100">
+                    <div class="card-body">
+                        <i class="fas fa-image fa-3x mb-3"></i>
+                        <h5>Image AI</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-6">
+            <a href="/search?q=writing" class="category-card">
+                <div class="card text-center h-100">
+                    <div class="card-body">
+                        <i class="fas fa-pen-fancy fa-3x mb-3"></i>
+                        <h5>Writing</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-6">
+            <a href="/search?q=video" class="category-card">
+                <div class="card text-center h-100">
+                    <div class="card-body">
+                        <i class="fas fa-video fa-3x mb-3"></i>
+                        <h5>Video AI</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

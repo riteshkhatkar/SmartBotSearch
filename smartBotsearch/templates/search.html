@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="search-results-header mb-4">
+    <div class="d-flex justify-content-between align-items-center">
+        <h2>
+            {% if query %}
+            Search Results for "{{ query }}"
+            {% else %}
+            Browse AI Tools
+            {% endif %}
+        </h2>
+        <span class="badge bg-secondary">{{ tools|length }} tools found</span>
+    </div>
+    
+    <div class="mt-3">
+        <a href="/" class="btn btn-sm btn-outline-secondary me-2">
+            <i class="fas fa-arrow-left me-1"></i> Back to Home
+        </a>
+    </div>
+</div>
+
+{% if tools %}
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    {% for tool in tools %}
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">{{ tool.name }}</h5>
+                <p class="card-text">{{ tool.function }}</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="badge bg-{{ 'success' if tool.pricing.lower() == 'free' else 'warning' if 'free' in tool.pricing.lower() else 'primary' }}">
+                        {{ tool.pricing }}
+                    </span>
+                    <a href="{{ tool.url }}" target="_blank" class="btn btn-sm btn-outline-primary">Visit</a>
+                </div>
+            </div>
+            <div class="card-footer bg-transparent">
+                {% for category in tool.categories[:3] %}
+                <span class="badge bg-light text-dark me-1">{{ category }}</span>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="alert alert-warning">
+    No tools found matching your search. Try different keywords or filters.
+</div>
+{% endif %}
+{% endblock %}
